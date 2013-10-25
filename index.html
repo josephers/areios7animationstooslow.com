@@ -10,13 +10,29 @@ body {
   background: #ef4db6; /* Old browsers */
   color: white;
   text-align: center;
+  box-shadow: 0 0 0 1px rgba(156, 48, 255, 0.5) inset;
+  background: -webkit-linear-gradient(top, #ff57c6 0%, #a542fd 100%);
+  background: -moz-linear-gradient(top, #ff57c6 0%, #a542fd 100%);
+  background: -ms-linear-gradient(top, #ff57c6 0%, #a542fd 100%);
+  background: -o-linear-gradient(top, #ff57c6 0%, #a542fd 100%);
+  background: linear-gradient(top, #ff57c6 0%, #a542fd 100%);
+  .icon {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 18px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 </style>
 </head>
 
 <body>
-  <div style="width: 500px; margin: 50px auto;">
-    <p class="gradient-magenta">Yes.</p>
+  <div class="icon"style="margin: 50px auto;">
+    <p>Yes.</p>
   </div>
 <!-- But seriously, guys. -->
 <script>
